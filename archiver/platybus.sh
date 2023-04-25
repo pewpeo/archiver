@@ -25,7 +25,7 @@ CMD=("platypus -y \
 --droppable \
 --app-icon 'ZIP.icns' \
 --name 'Zip' \
---interface-type 'Progress Bar' \
+--interface-type 'Droplet' \
 --interpreter '/bin/sh' \
 --uniform-type-identifiers 'public.item|public.folder' \
 --bundled-file '"${NODE_VERSION_DIR}"' \
