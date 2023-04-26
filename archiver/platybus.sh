@@ -25,6 +25,9 @@ CMD=("platypus -y \
 --droppable \
 --app-icon 'ZIP.icns' \
 --name 'Zip' \
+--bundle-identifier 'org.pewpeo.archiver' \
+--author 'Peter Oltmann' \
+--app-version $(git describe --tags --always) \
 --interface-type 'Droplet' \
 --interpreter '/bin/sh' \
 --uniform-type-identifiers 'public.item|public.folder' \
