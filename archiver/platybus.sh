@@ -18,7 +18,7 @@ cat > dist/script <<EOF
 exec ${NODE_VERSION}/bin/node zip.mjs "\$@"
 EOF
 
-chmod u+x script
+chmod u+x dist/script
 
 # call platybus
 CMD=("platypus -y \
